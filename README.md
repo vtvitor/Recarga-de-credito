@@ -11,7 +11,7 @@ Vitor (BD + Back-end + analista)
 Nome do time: Four Sync
 
 Logo: 
-- <img width="700" height="700" alt="2" src="https://github.com/user-attachments/assets/9aab72c8-434a-4e4e-b962-a022a09c4702" />
+<img width="700" height="700" alt="2" src="https://github.com/user-attachments/assets/9aab72c8-434a-4e4e-b962-a022a09c4702" />
 
 Nome do projeto: Recarga+
 
