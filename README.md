@@ -6,5 +6,7 @@ Nome do time:
 
 logo:
 
+nome do progeto: recarga+
+
 descrição: Regarga da carteirinha de onibus de forma online, utilizando um app.
 - Usado para facilitar a recarga de onibus sem precisar sair de sua casa e ser remoto/facil acesso.
