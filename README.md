@@ -15,4 +15,4 @@ nome do progeto: recarga+
 
 descrição: Regarga da carteirinha de onibus de forma online, utilizando um app.
 - Usado para facilitar a recarga de onibus sem precisar sair de sua casa e ser remoto/facil acesso.
-- <img width="1000" height="1000" alt="2" src="https://github.com/user-attachments/assets/9aab72c8-434a-4e4e-b962-a022a09c4702" />
+- <img width="700" height="700" alt="2" src="https://github.com/user-attachments/assets/9aab72c8-434a-4e4e-b962-a022a09c4702" />
