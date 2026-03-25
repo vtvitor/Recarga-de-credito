@@ -19,3 +19,5 @@ Descrição: Recarga da carteirinha de ônibus de forma online, utilizando um ap
 - Usado para facilitar a recarga de ônibus sem precisar sair de sua casa e ser remoto/fácil acesso.
 
 <img width="1639" height="817" alt="image" src="https://github.com/user-attachments/assets/95a3c3ce-edd1-4ae8-ad75-ba882ad4c1b8" />
+
+api 
