@@ -13,7 +13,7 @@ Nome do time: Four Sync
 Logo: 
 <img width="300" height="300" alt="2" src="https://github.com/user-attachments/assets/9aab72c8-434a-4e4e-b962-a022a09c4702" />
 
-Nome do projeto: Recarga+
+Nome do projeto: BusPay (ou PasseFacil)
 
 Descrição: Recarga da carteirinha de ônibus de forma online, utilizando um app.
 - Usado para facilitar a recarga de ônibus sem precisar sair de sua casa e ser remoto/fácil acesso.
