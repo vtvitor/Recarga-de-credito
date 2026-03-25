@@ -1,6 +1,10 @@
 # Recarga-de-credito
 
 integrantes: Kauan, Leticia M, Maria C. e Vitor
+Leticia M (lider, full-stack)
+Kauan(design + front-end)
+Maria C (design + front-end)
+Vitor (BD + Back-end + analista)
 
 Nome do time:
 
