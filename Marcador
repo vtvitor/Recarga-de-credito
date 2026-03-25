@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa SENAI São Carlos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        #map { height: 500px; width: 100%; }
+        body { font-family: sans-serif; margin: 20px; }
+    </style>
+</head>
+<body>
+
+    <h2>Localização SENAI São Carlos</h2>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Coordenadas do SENAI São Carlos
+        var lat = -22.0234009;
+        var lng = -47.8972138;
+
+        // 3. Inicialização do Mapa
+        // O "L" agora estará definido pois o script acima já carregou
+        var map = L.map('map').setView([lat, lng], 16);
+
+        // 4. Adicionar Camada de Mapa (OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // 5. Configuração do Ícone Personalizado
+        var busIcon = L.icon({
+            iconUrl: 'https://cdn-icons-png.flaticon.com/512/3448/3448339.png',
+            iconSize: [40, 40],
+            iconAnchor: [20, 40],
+            popupAnchor: [0, -40]
+        });
+
+        // 6. Criar o Marcador nas mesmas coordenadas do SENAI
+        var marker = L.marker([lat, lng], { icon: busIcon }).addTo(map);
+        
+        // Adicionar um balão de informação (Popup)
+        marker.bindPopup("<b>SENAI São Carlos</b><br>Unidade Antonio Adolpho Lobbe").openPopup();
+    </script>
+
+</body>
+</html>
