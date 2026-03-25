@@ -1,6 +1,7 @@
 # Recarga-de-credito
 
 integrantes: Kauan, Leticia M, Maria C. e Vitor
+funções:
 Leticia M (lider, full-stack)
 Kauan(design + front-end)
 Maria C (design + front-end)
