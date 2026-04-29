@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Moderno</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #d9d9d9; 
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        
+        .app-container {
+            width: 320px;
+            height: 560px;
+            background-color: #e5e5e5;
+            position: relative; 
+            overflow: hidden; 
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: #ffeb3b;
+            height: 50px; 
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 15px;
+            z-index: 10;
+        }
+
+        .menu-icon {
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .menu-icon span {
+            display: block;
+            width: 22px;
+            height: 3px;
+            background-color: #333;
+            border-radius: 2px;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            gap: 30px;
+        }
+
+        .display-valor {
+            text-align: center;
+            width: 100%;
+        }
+
+        .valor-input {
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #333;
+            font-size: 2.5rem; 
+            font-weight: 600;
+            color: #333;
+            width: 80%;
+            text-align: center;
+            outline: none;
+            padding-bottom: 5px;
+        }
+
+        .actions {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 15px;
+            border-radius: 40px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #222;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+        }
+
+        .menu-btn {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 80px;
+            height: 40px;
+            background: #2c8c7a;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            text-decoration: none;
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <header class="navbar">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="display-valor">
+                <input type="text" class="valor-input" placeholder="0,00" value="0,00">
+            </section>
+
+            <section class="actions">
+                <button class="btn">Pagar com pix</button>
+                <button class="btn">Pagar com cartão</button>
+            </section>
+        </main>
+
+        <a href="paginainicial.html" class="menu-btn">
+            Voltar
+        </a>
+    </div>
+
+</body>
+</html>
